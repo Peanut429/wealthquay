@@ -1,0 +1,40 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: transparent;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 120px;
+    box-sizing: border-box;
+  }
+  .logo {
+    width: 144px;
+  }
+  ul {
+    display: flex;
+    column-gap: 94px;
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+    li {
+      line-height: 50px;
+      font-weight: 500;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+  .language {
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

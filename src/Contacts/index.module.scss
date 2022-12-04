@@ -1,0 +1,54 @@
+.contacts {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F0E8DE;
+  &__ways {
+    display: flex;
+    column-gap: 100px;
+    margin-top: 12.65vw;
+    margin-left: 13.64vw;
+    margin-bottom: 5.52vw;
+  }
+  &__item {
+    h1 {
+      margin: 0;
+      margin-bottom: 10px;
+      line-height: 1;
+      font-size: 34px;
+      font-family: 'Playfair Display Bold';
+    }
+    div {
+      line-height: 18px;
+      font-size: 16px;
+    }
+  }
+  .websites {
+    margin: 0;
+    margin-left: 13.64vw;
+    padding: 0;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      column-gap: 35px;
+      margin-bottom: 14px;
+      font-size: 14px;
+      .icon {
+        width: 53px;
+        height: 53px;
+        border-radius: 50%;
+        background-color: #F77149;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+  img {
+    position: fixed;
+    top: 21.25vw;
+    left: 37.4vw;
+    width: 57.5vw;
+  }
+}

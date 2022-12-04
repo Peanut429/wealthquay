@@ -1,0 +1,66 @@
+.team {
+  padding-top: 120px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #F0E9DF;
+  .top-text {
+    display: flex;
+    align-items: center;
+    margin-left: 13.54vw;
+    margin-top: 2.44vw;
+    h1 {
+      margin: 0;
+      margin-right: 6.56vw;
+      font-size: 50px;
+      line-height: 80px;
+      font-family: 'Playfair Display Bold';
+    }
+    div {
+      font-size: 16px;
+      line-height: 22px;
+      width: 39vw;
+    }
+  }
+  .members {
+    position: relative;
+    &__item {
+      position: absolute;
+      font-size: 30px;
+      line-height: 80px;
+      text-align: center;
+      font-family: 'Playfair Display Bold';
+      &:first-child {
+        top: 3.43vw;
+        left: 25.36vw;
+        width: 14.16vw;
+      }
+      &:nth-child(2) {
+        top: 3.75vw;
+        left: 72vw;
+        width: 14.375vw;
+      }
+      &:nth-child(3) {
+        top: 17.6vw;
+        left: 14vw;
+        width: 13.75vw;
+      }
+      &:nth-child(4) {
+        top: 8.3vw;
+        left: 40.625vw;
+        width: 18.6vw;
+      }
+      &:last-child {
+        top: 19.68vw;
+        left: 59.63vw;
+        width: 15.26vw;
+      }
+      img {
+        width: 100%;
+        vertical-align: bottom;
+      }
+    }
+    &__name {
+      margin-top: -15px;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.main {
+  position: relative;
+  padding-top: 120px;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #F0E9DF;
+  img {
+    margin-top: 6.6vw;
+    margin-left: 10.9vw;
+    width: 79.8vw;
+    vertical-align: bottom;
+  }
+  h1 {
+    position: absolute;
+    top: 11.45vw;
+    left: 26.14vw;
+    margin: 0;
+    line-height: 80px;
+    font-size: 74px;
+    font-weight: 900;
+    color: #000;
+    font-family: 'Playfair Display Bold';
+    &.red {
+      top: 17.2vw;
+      left: 34.8vw;
+      color: #F94F1E;
+    }
+  }
+}

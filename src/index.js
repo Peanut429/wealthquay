@@ -1,13 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PageHeader from './components/PageHeader';
+import Home from './Home';
+import About from './About';
+import Team from './Team';
+import Services from './Services';
+import Contacts from './Contacts';
+import './index.css';
+import 'normalize.css'
+
+const router = createBrowserRouter([
+  { path: '/', element: <Home /> },
+  { path: '/about', element: <About /> },
+  { path: '/team', element: <Team />},
+  { path: '/services', element: <Services />},
+  { path: '/contacts', element: <Contacts />},
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <PageHeader />
+    <RouterProvider router={router} />
+    {/* <App /> */}
   </React.StrictMode>
 );
 
