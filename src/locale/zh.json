@@ -24,7 +24,11 @@
     { "title": "境内外慈善活动平台", "content": "覆盖境内外的慈善活动,推动慈善事业的长久发展慈善服务定制" },
     { "title": "家族律师服务", "content": "为高净值客户提供专属的家族律师服务协助客户资产海外布局的一系列法律事宜" }
   ],
+  "m_services": {
+    "title": "业务介绍"
+  },
   "contacts": {
+    "title": "联系我们",
     "address": { "name": "通讯地址", "content": "上海市浦东新区芳甸路1155号3A层" },
     "email": { "name": "邮箱", "content": "support@wealthquay.cn" }
   }

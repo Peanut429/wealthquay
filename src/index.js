@@ -8,6 +8,7 @@ import './locale/i18n'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PageHeader from './components/PageHeader';
+import MPageHeader from './components/MPageHeader';
 import Home from './Home';
 import MHome from './mobile/Home'
 import About from './About';
@@ -21,7 +22,7 @@ import MContacts from './mobile/Contacts'
 import './index.css';
 import 'normalize.css'
 
-const router = document.body.clientWidth > 1000 ? createBrowserRouter([
+const router = document.body.clientWidth > 1200 ? createBrowserRouter([
   { path: '/', element: <Home /> },
   { path: '/about', element: <About /> },
   { path: '/team', element: <Team />},
@@ -38,7 +39,7 @@ const router = document.body.clientWidth > 1000 ? createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PageHeader />
+    {document.body.clientWidth > 1200 ? <PageHeader /> : <MPageHeader />}
     <RouterProvider router={router} />
     {/* <App /> */}
   </React.StrictMode>

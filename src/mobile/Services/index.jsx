@@ -1,18 +1,20 @@
 import { Swiper } from 'antd-mobile'
+import { useTranslation } from 'react-i18next'
 import styles from './index.module.scss'
 
 function Services() {
+  const { t } = useTranslation()
   const data = [
-    { title: 'Cross Border Platform Services', content: 'We aim to provide bespoke cross border platform of global asset allocation for UHNW.' },
-    { title: 'Global Wealth Management Services', content: 'We aim to provide a package of global assets allocation plans to assist our clients in achieving strategic global asset distribution.' },
-    { title: 'Offshore Family Trust Services', content: 'We aim to provide a comprehensive consulting service of setting up the offshore family trusts, offshore family offices and IBC services including directorship services, full accounting services, compliance and risk management services，private banking connections and etc.' },
-    { title: 'Family Lawyer Services', content: 'We aim to assist our client with legal advisory services in overseas strategic layout.' },
-    { title: 'Onshore and Offshore Charity Platform Services', content: 'We aim to provide long-term charitable activities that cover both domestic and overseas, and customized charity services.' },
+    { title: t('services.0.title'), content: t('services.0.content') },
+    { title: t('services.1.title'), content: t('services.1.content') },
+    { title: t('services.2.title'), content: t('services.2.content') },
+    { title: t('services.3.title'), content: t('services.3.content') },
+    { title: t('services.4.title'), content: t('services.4.content') },
   ]
 
   return (
     <main className={styles.main}>
-      <h1>Our Service</h1>
+      <h1>{t('m_services.title')}</h1>
       <div className={styles.banner}>
         <Swiper
           defaultIndex={0}

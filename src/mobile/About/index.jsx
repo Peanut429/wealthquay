@@ -1,24 +1,27 @@
 import classNames from 'classnames'
 import styles from './index.module.scss'
 import bgImage from '../../assets/images/m_about_us.png'
+import { useTranslation } from 'react-i18next'
 
 function About () {
+  const {t} = useTranslation()
+
   return (
     <main className={styles.main}>
       <section className={styles.container}>
         <div className={styles['image-wrapper']}><img src={bgImage} alt="" /></div>
-        <h1>About Us</h1>
+        <h1>{t('about.title')}</h1>
         <div className={classNames(styles['bold-text'], styles.top)}>
           <span>“</span>
-          <span>Relying on the global cooperation network to provide the most advanced strategic layout services</span>
+          <span>{t('about.quotes_1')}</span>
           <span>”</span>
         </div>
         <div className={classNames(styles['bold-text'], styles.bottom)}>
           <span>“</span>
-          <span>Global asset allocation service provid-er for domestic and overseas high net worth clients</span>
+          <span>{t('about.quotes_2')}</span>
           <span>”</span>
         </div>
-        <div className={styles['normal-text']}>As a global assets allocation service provider for UHNW, Wealth Quay Family Office provides the most advanced strategic planning services based on a global cooperation network.<br /> The team has extensive experiences in the areas of derivatives and quantitative analysis, financial service consultancy, capital market and investment banking business.</div>
+        <div className={styles['normal-text']}>{t('about.description')}</div>
       </section>
     </main>
   )

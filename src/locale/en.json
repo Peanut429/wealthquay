@@ -24,7 +24,11 @@
     { "title": "Onshore and Offshore Charity Platform Services", "content": "We aim to provide long-term charitable activities that cover both domestic and overseas, and customized charity services." },
     { "title": "Family Lawyer Services", "content": "We aim to assist our client with legal advisory services in overseas strategic layout." }
   ],
+  "m_services": {
+    "title": "Our Services"
+  },
   "contacts": {
+    "title": "Contacts",
     "address": { "name": "Address", "content": "3A/F No.1155 Fangdian Road,Pudong,Shanghai" },
     "email": { "name": "E-mail", "content": "support@wealthquay.cn" }
   }
