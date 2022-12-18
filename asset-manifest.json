@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.97cdfc9e.css",
-    "main.js": "/static/js/main.1f00ffa5.js",
+    "main.css": "/static/css/main.79589ba9.css",
+    "main.js": "/static/js/main.02b0b68d.js",
     "static/js/787.8e790eec.chunk.js": "/static/js/787.8e790eec.chunk.js",
     "static/media/PlayfairDisplay-Bold.ttf": "/static/media/PlayfairDisplay-Bold.60d3f992e85f8e17f419.ttf",
     "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.b982583b4edccc394bb4.ttf",
     "static/media/home.png": "/static/media/home.8119989dc1967ea147f8.png",
     "static/media/about_us.png": "/static/media/about_us.64e3d7736cf15318f9fb.png",
+    "static/media/m_about_us.png": "/static/media/m_about_us.fa09febcabf82cc459cf.png",
     "static/media/contact.png": "/static/media/contact.f358cccdb49d51cad847.png",
     "static/media/Ben Cui.png": "/static/media/Ben Cui.4a2e3e7e0cf3fbbaab6d.png",
     "static/media/Maggie Liu.png": "/static/media/Maggie Liu.9724ca7f9f76e1e1c777.png",
@@ -15,12 +16,12 @@
     "static/media/Leanne Nie.png": "/static/media/Leanne Nie.8b680cb489c3022a8521.png",
     "static/media/Sophia Li.png": "/static/media/Sophia Li.43dd40266aba20c0a2d6.png",
     "index.html": "/index.html",
-    "main.97cdfc9e.css.map": "/static/css/main.97cdfc9e.css.map",
-    "main.1f00ffa5.js.map": "/static/js/main.1f00ffa5.js.map",
+    "main.79589ba9.css.map": "/static/css/main.79589ba9.css.map",
+    "main.02b0b68d.js.map": "/static/js/main.02b0b68d.js.map",
     "787.8e790eec.chunk.js.map": "/static/js/787.8e790eec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97cdfc9e.css",
-    "static/js/main.1f00ffa5.js"
+    "static/css/main.79589ba9.css",
+    "static/js/main.02b0b68d.js"
   ]
 }
