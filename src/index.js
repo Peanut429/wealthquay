@@ -9,19 +9,30 @@ import './locale/i18n'
 import reportWebVitals from './reportWebVitals';
 import PageHeader from './components/PageHeader';
 import Home from './Home';
+import MHome from './mobile/Home'
 import About from './About';
+import MAbout from './mobile/About'
 import Team from './Team';
+import MTeam from './mobile/Team'
 import Services from './Services';
+import MServices from './mobile/Services'
 import Contacts from './Contacts';
+import MContacts from './mobile/Contacts'
 import './index.css';
 import 'normalize.css'
 
-const router = createBrowserRouter([
+const router = document.body.clientWidth > 1000 ? createBrowserRouter([
   { path: '/', element: <Home /> },
   { path: '/about', element: <About /> },
   { path: '/team', element: <Team />},
   { path: '/services', element: <Services />},
   { path: '/contacts', element: <Contacts />},
+]) : createBrowserRouter([
+  { path: '/', element: <MHome /> },
+  { path: '/about', element: <MAbout /> },
+  { path: '/team', element: <MTeam />},
+  { path: '/services', element: <MServices />},
+  { path: '/contacts', element: <MContacts />},
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

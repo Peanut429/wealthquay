@@ -1,0 +1,77 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #F0E8DE;
+  .title {
+    margin: 0;
+    margin-top: 10.6vw;
+    margin-bottom: 12.88vw;
+    line-height: 12vw;
+    font-size: 10.6vw;
+    text-align: center;
+    font-family: 'Playfair Display Bold';
+  }
+  img {
+    display: block;
+    width: 100%;
+    margin-bottom: 15.5vw;
+    padding: 0 5.3vw;
+    box-sizing: border-box;
+  }
+  &__ways {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vw;
+    width: 100%;
+    margin-bottom: 13.3vw;
+    text-align: center;
+  }
+  &__item {
+    h3 {
+      margin: 0;
+      margin-bottom: 15px;
+      line-height: 7.1vw;
+      font-size: 5.3vw;
+      font-family: 'Playfair Display Bold';
+    }
+    div {
+      line-height: 4vw;
+      font-size: 3.5vw;
+    }
+  }
+  .websites {
+    margin: 0;
+    margin-left: 27.5vw;
+    padding: 0;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      column-gap: 15px;
+      margin-bottom: 15px;
+      font-size: 3.5vw;
+      .icon {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: #F77149;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+  .copyright {
+    padding-bottom: 22px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+  }
+}
