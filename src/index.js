@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import './locale/i18n'
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import PageHeader from './components/PageHeader';

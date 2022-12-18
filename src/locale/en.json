@@ -1,0 +1,31 @@
+{
+  "lng": "en",
+  "nav": [
+    "Home", "About Us", "Our Team", "Our Services", "Contacts"
+  ],
+  "home": {
+    "title": "Your Global",
+    "subTitle": "Wealth Partners"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "As a global assets allocation service provider for UHNW, Wealth Quay Family Office provides the most advanced strategic planning services based on a global cooperation network. The team has extensive experiences in the areas of derivatives and quantitative analysis, financial service consultancy, capital market and investment banking business.",
+    "quotes_1": "Relying on the global cooperation network to provide the most advanced strategic layout services",
+    "quotes_2": "Global asset allocation service provid-er for domestic and overseas high net worth clients"
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "The team includes cross-border structuring experts, offshore trust experts, overseas investment experts, overseas M&A experts, FRM, CPA, lawyers of private wealth, etc."
+  },
+  "services": [
+    { "title": "Cross Border Platform Services", "content": "We aim to provide bespoke cross border platform of global asset allocation for UHNW." },
+    { "title": "Global Wealth Management Services", "content": "We aim to provide a package of global assets allocation plans to assist our clients in achieving strategic global asset distribution." },
+    { "title": "Offshore Family Trust Services", "content": "We aim to provide a comprehensive consulting service of setting up the offshore family trusts, offshore family offices and IBC services including directorship services, full accounting services, compliance and risk management services，private banking connections and etc." },
+    { "title": "Onshore and Offshore Charity Platform Services", "content": "We aim to provide long-term charitable activities that cover both domestic and overseas, and customized charity services." },
+    { "title": "Family Lawyer Services", "content": "We aim to assist our client with legal advisory services in overseas strategic layout." }
+  ],
+  "contacts": {
+    "address": { "name": "Address", "content": "3A/F No.1155 Fangdian Road,Pudong,Shanghai" },
+    "email": { "name": "E-mail", "content": "support@wealthquay.cn" }
+  }
+}

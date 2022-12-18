@@ -1,16 +1,19 @@
+import { useTranslation } from 'react-i18next'
 import styles from './index.module.scss'
 import mapImage from '../assets/images/contact.png'
 
 function Contacts() {
+  const { t } = useTranslation()
+
   return (
     <main className={styles.contacts}>
       <div className={styles.contacts__ways}>
         <div className={styles.contacts__item}>
-          <h1>Address</h1>
-          <div>3A/F No.1155 Fangdian Road,Pudong,Shanghai</div>
+          <h1>{t('contacts.address.name')}</h1>
+          <div>{t('contacts.address.content')}</div>
         </div>
         <div className={styles.contacts__item}>
-          <h1>E-mail</h1>
+          <h1>{t('contacts.email.name')}</h1>
           <div>support@wealthquay.cn</div>
         </div>
       </div>
