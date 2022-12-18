@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.79589ba9.css",
-    "main.js": "/static/js/main.02b0b68d.js",
-    "static/js/787.8e790eec.chunk.js": "/static/js/787.8e790eec.chunk.js",
-    "static/media/PlayfairDisplay-Bold.ttf": "/static/media/PlayfairDisplay-Bold.60d3f992e85f8e17f419.ttf",
-    "static/media/PlayfairDisplay-Regular.ttf": "/static/media/PlayfairDisplay-Regular.b982583b4edccc394bb4.ttf",
-    "static/media/home.png": "/static/media/home.8119989dc1967ea147f8.png",
-    "static/media/about_us.png": "/static/media/about_us.64e3d7736cf15318f9fb.png",
-    "static/media/m_about_us.png": "/static/media/m_about_us.fa09febcabf82cc459cf.png",
-    "static/media/contact.png": "/static/media/contact.f358cccdb49d51cad847.png",
-    "static/media/Ben Cui.png": "/static/media/Ben Cui.4a2e3e7e0cf3fbbaab6d.png",
-    "static/media/Maggie Liu.png": "/static/media/Maggie Liu.9724ca7f9f76e1e1c777.png",
-    "static/media/Margaret Guan.png": "/static/media/Margaret Guan.8264e8ee2753512dc3e0.png",
-    "static/media/logo.png": "/static/media/logo.66030b43ea81ded9231e.png",
-    "static/media/Leanne Nie.png": "/static/media/Leanne Nie.8b680cb489c3022a8521.png",
-    "static/media/Sophia Li.png": "/static/media/Sophia Li.43dd40266aba20c0a2d6.png",
-    "index.html": "/index.html",
-    "main.79589ba9.css.map": "/static/css/main.79589ba9.css.map",
-    "main.02b0b68d.js.map": "/static/js/main.02b0b68d.js.map",
-    "787.8e790eec.chunk.js.map": "/static/js/787.8e790eec.chunk.js.map"
+    "main.css": "/build/static/css/main.bbff9d0d.css",
+    "main.js": "/build/static/js/main.b8ac904a.js",
+    "static/js/787.8e790eec.chunk.js": "/build/static/js/787.8e790eec.chunk.js",
+    "static/media/PlayfairDisplay-Bold.ttf": "/build/static/media/PlayfairDisplay-Bold.60d3f992e85f8e17f419.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/build/static/media/PlayfairDisplay-Regular.b982583b4edccc394bb4.ttf",
+    "static/media/home.png": "/build/static/media/home.8119989dc1967ea147f8.png",
+    "static/media/about_us.png": "/build/static/media/about_us.64e3d7736cf15318f9fb.png",
+    "static/media/m_about_us.png": "/build/static/media/m_about_us.fa09febcabf82cc459cf.png",
+    "static/media/contact.png": "/build/static/media/contact.f358cccdb49d51cad847.png",
+    "static/media/Ben Cui.png": "/build/static/media/Ben Cui.4a2e3e7e0cf3fbbaab6d.png",
+    "static/media/Maggie Liu.png": "/build/static/media/Maggie Liu.9724ca7f9f76e1e1c777.png",
+    "static/media/Margaret Guan.png": "/build/static/media/Margaret Guan.8264e8ee2753512dc3e0.png",
+    "static/media/logo.png": "/build/static/media/logo.66030b43ea81ded9231e.png",
+    "static/media/Leanne Nie.png": "/build/static/media/Leanne Nie.8b680cb489c3022a8521.png",
+    "static/media/Sophia Li.png": "/build/static/media/Sophia Li.43dd40266aba20c0a2d6.png",
+    "index.html": "/build/index.html",
+    "main.bbff9d0d.css.map": "/build/static/css/main.bbff9d0d.css.map",
+    "main.b8ac904a.js.map": "/build/static/js/main.b8ac904a.js.map",
+    "787.8e790eec.chunk.js.map": "/build/static/js/787.8e790eec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79589ba9.css",
-    "static/js/main.02b0b68d.js"
+    "static/css/main.bbff9d0d.css",
+    "static/js/main.b8ac904a.js"
   ]
 }
