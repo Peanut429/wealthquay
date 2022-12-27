@@ -16,16 +16,16 @@ function PageHeader () {
             <a href="/">
               <li>{t('nav.0')}</li>
             </a>
-            <a href="/about">
+            <a href="#/about">
               <li>{t('nav.1')}</li>
             </a>
-            <a href="/team">
+            <a href="#/team">
               <li>{t('nav.2')}</li>
             </a>
-            <a href="/services">
+            <a href="#/services">
               <li>{t('nav.3')}</li>
             </a>
-            <a href="/contacts">
+            <a href="#/contacts">
               <li>{t('nav.4')}</li>
             </a>
           </ul>

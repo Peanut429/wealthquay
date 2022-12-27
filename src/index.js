@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
+  // createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import './locale/i18n'
@@ -22,13 +23,13 @@ import MContacts from './mobile/Contacts'
 import './index.css';
 import 'normalize.css'
 
-const router = document.body.clientWidth > 1200 ? createBrowserRouter([
+const router = document.body.clientWidth > 1200 ? createHashRouter([
   { path: '/', element: <Home /> },
   { path: '/about', element: <About /> },
   { path: '/team', element: <Team />},
   { path: '/services', element: <Services />},
   { path: '/contacts', element: <Contacts />},
-]) : createBrowserRouter([
+]) : createHashRouter([
   { path: '/', element: <MHome /> },
   { path: '/about', element: <MAbout /> },
   { path: '/team', element: <MTeam />},

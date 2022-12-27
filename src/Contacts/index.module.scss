@@ -28,16 +28,36 @@
     padding: 0;
     list-style: none;
     li {
-      display: flex;
-      align-items: center;
+      // display: flex;
+      // align-items: center;
+      // flex-direction: column;
       column-gap: 35px;
-      margin-bottom: 14px;
-      font-size: 14px;
+      margin-bottom: 3.125vw;
+      font-size: 0.73vw;
       .icon {
         width: 53px;
         height: 53px;
         border-radius: 50%;
         background-color: #F77149;
+      }
+      .logo {
+        display: block;
+        margin-bottom: 0.9375vw;
+      }
+      &:first-child {
+        .logo {
+          height: 1.46vw;
+        }
+      }
+      &:nth-child(2) {
+        .logo {
+          height: 1.51vw;
+        }
+      }
+      &:last-child {
+        .logo {
+          height: 0.78125vw;
+        }
       }
       a {
         text-decoration: none;
@@ -45,7 +65,7 @@
       }
     }
   }
-  img {
+  > img {
     position: fixed;
     top: 21.25vw;
     left: 37.4vw;

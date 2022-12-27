@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.2.1",
     "antd-mobile": "^5.27.0",
     "classnames": "^2.3.2",
+    "gh-pages": "^4.0.0",
     "i18next": "^22.4.5",
     "i18next-browser-languagedetector": "^7.0.1",
     "normalize.css": "^8.0.1",
@@ -24,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,0 +1,1 @@
+rsync -r -z -t -P build/* root@139.196.205.161:/usr/local/websit
