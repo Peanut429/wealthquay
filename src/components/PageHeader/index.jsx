@@ -13,7 +13,7 @@ function PageHeader () {
         <img className={styles.logo} src={logo} alt="logo" />
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <ul>
-            <a href="/">
+            <a href="#/home">
               <li>{t('nav.0')}</li>
             </a>
             <a href="#/about">

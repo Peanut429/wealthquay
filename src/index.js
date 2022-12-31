@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {
   // createBrowserRouter,
   createHashRouter,
+  Navigate,
   RouterProvider,
 } from "react-router-dom";
 import './locale/i18n'
@@ -24,13 +25,15 @@ import './index.css';
 import 'normalize.css'
 
 const router = document.body.clientWidth > 1200 ? createHashRouter([
-  { path: '/', element: <Home /> },
+  { path: '/', element: <Navigate to='/home' />},
+  { path: '/home', element: <Home /> },
   { path: '/about', element: <About /> },
   { path: '/team', element: <Team />},
   { path: '/services', element: <Services />},
   { path: '/contacts', element: <Contacts />},
 ]) : createHashRouter([
-  { path: '/', element: <MHome /> },
+  { path: '/', element: <Navigate to='/home' />},
+  { path: '/home', element: <MHome /> },
   { path: '/about', element: <MAbout /> },
   { path: '/team', element: <MTeam />},
   { path: '/services', element: <MServices />},

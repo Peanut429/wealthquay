@@ -17,7 +17,7 @@ function PageHeader () {
   const [status, setStatus] = useState(false)
 
   const menuItems = [
-    { name: t('nav.0'), pathname: '/', active: '' },
+    { name: t('nav.0'), pathname: '#/home' },
     { name: t('nav.1'), pathname: '#/about' },
     { name: t('nav.2'), pathname: '#/team' },
     { name: t('nav.3'), pathname: '#/services' },
@@ -39,7 +39,9 @@ function PageHeader () {
         <ul>
           {menuItems.map(item => (
             <a key={item.pathname} href={item.pathname} onClick={() => setStatus(false)}>
-              <li className={classNames({[styles.active]: pathname === item.pathname || pathname === item.active})}>
+              <li
+                className={classNames({ [styles.active]: pathname === item.pathname })}
+              >
                 <span>{item.name}</span>
                 <img src={pathname === item.pathname ? routeActiveIcon : routeIcon} alt="" />
               </li>

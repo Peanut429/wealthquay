@@ -1,6 +1,6 @@
 .team {
   padding-top: 120px;
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
   background-color: #F0E9DF;
   .top-text {
@@ -23,10 +23,11 @@
   }
   .members {
     position: relative;
+    height: 40vw;
     &__item {
       position: absolute;
-      font-size: 30px;
-      line-height: 80px;
+      font-size: 1.5625vw;
+      line-height: 4.16vw;
       text-align: center;
       font-family: 'Playfair Display Bold';
       &:first-child {

@@ -32,10 +32,10 @@
         content: '';
         position: absolute;
         top: -3px;
-        left: -50px;
+        left: -2.6vw;
         z-index: 10;
-        width: 34px;
-        height: 34px;
+        width: 1.77vw;
+        height: 1.77vw;
         border-radius: 50%;
         background-color: #F94F1E;
       }
@@ -43,23 +43,23 @@
         content: '';
         position: absolute;
         top: -8px;
-        left: -55px;
-        width: 34px;
-        height: 34px;
+        left: -2.9vw;
+        width: 1.77vw;
+        height: 1.77vw;
         border-radius: 50%;
         background-color: #0C0D0E;
       }
       .title {
         margin-bottom: 17px;
-        line-height: 22px;
-        font-size: 22px;
+        line-height: 1;
+        font-size: 1.14vw;
         font-weight: bold;
         font-family: 'Playfair Display Bold';
       }
       .content {
-        line-height: 22px;
-        font-size: 16px;
         width: 20.8vw;
+        line-height: 22px;
+        font-size: 0.83vw;
       }
     }
   }
