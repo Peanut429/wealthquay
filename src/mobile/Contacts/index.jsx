@@ -11,7 +11,8 @@ function Contacts() {
   return (
     <main className={styles.contacts}>
       <div>
-        <h1 className={styles.title}>Contacts</h1>
+        {/* <h1 className={styles.title}>Contacts</h1> */}
+        <h1 className={styles.title}>{t('contacts.title')}</h1>
         <img className={styles.map} src={mapImage} alt="" />
 
         <div className={styles.contacts__ways}>
